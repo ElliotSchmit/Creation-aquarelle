@@ -1,0 +1,56 @@
+/*=============================================================
+BASE
+=============================================================*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+
+
+
+/*=============================================================
+GÉNERIQUE
+=============================================================*/
+
+.wrapper{
+    max-width: 768px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+
+    font-family: "Marck Script", cursive;
+    font-size: 40px;
+
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+
+    text-align: center;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 64px;
+}
+
+.contenu img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
